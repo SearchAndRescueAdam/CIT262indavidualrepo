@@ -1,0 +1,22 @@
+{
+  "name": "cit262indavidualrepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SearchAndRescueAdam/CIT262indavidualrepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SearchAndRescueAdam/CIT262indavidualrepo/issues"
+  },
+  "homepage": "https://github.com/SearchAndRescueAdam/CIT262indavidualrepo#readme",
+  "description": "",
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}
