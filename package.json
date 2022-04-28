@@ -17,6 +17,8 @@
   "homepage": "https://github.com/SearchAndRescueAdam/CIT262indavidualrepo#readme",
   "description": "",
   "dependencies": {
-    "mocha": "^9.2.2"
-  }
+    "mocha": "^9.2.2",
+    "node-fetch": "^3.2.4"
+  },
+  "type":"module"
 }
