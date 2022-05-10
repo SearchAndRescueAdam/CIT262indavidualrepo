@@ -11,7 +11,7 @@ steps:
     id: push
     args:
       - "push"
-      - "gcr.io/$PROJECT_ID/stedi-test-adam:latest"
+      - "gcr.io/$PROJECT_ID/stedi-tests-adam:latest"
       
 
 
