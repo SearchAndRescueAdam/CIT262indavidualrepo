@@ -1,6 +1,6 @@
 import express from "express";
 
-const applcation = express();
+const application = express();
 
 application.get('/',(req,res)=>{res.send("Hello")});
 
