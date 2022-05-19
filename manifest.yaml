@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: adam-stedi
-          image: gcr.io/$PROJECT_ID/stedi-tests-adam:latest
+          image: gcr.io/teca-350016/stedi-adam:latest
           ports:
             - containerPort: 3000
           resources:
