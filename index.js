@@ -7,7 +7,7 @@ application.use(bodyParser.json());
 
 application.get('/',(req,res)=>{res.send("Hello")});
 
-application.post('/login', (req,res)=>{
+application.post('/login', (loginRequest,loginResponse)=>{
     const userName = loginRequest.body.userName;
     const password = loginRequest.body.password;
 

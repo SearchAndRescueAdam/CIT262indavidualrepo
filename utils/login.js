@@ -8,8 +8,8 @@ const login = async (userName, password) => {
                 'Accept':'text'
             }
     };
-    const tokenResponse = await fetch('http://34.74.239.37/login',options);
-    const loginResponse = await tokenResponse.text();
+    const apiResponse = await fetch('http://34.74.239.37/login',options);
+    const loginResponse = await apiResponse.text();
 
     return loginResponse;
 }
