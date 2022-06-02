@@ -8,7 +8,7 @@ const login = async (userName, password) => {
                 'Accept':'text'
             }
     };
-    const tokenResponse = await fetch('http://localhost:3000/login',options);
+    const tokenResponse = await fetch('https://https://dev.stedi.me/login',options);
     const loginResponse = await tokenResponse.text();
 
     return loginResponse;
